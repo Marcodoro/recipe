@@ -1,5 +1,9 @@
-.App {
-  text-align: center;
+.app {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +39,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+body {
+  background-color: #282c34;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 200px;
+}
+input {
+  width: 25px;
 }
